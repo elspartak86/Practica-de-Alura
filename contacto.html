@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario GEORGE de TATTOO</title>
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="reset.css">
+
+</head>
+<body>
+  <main></main>
+
+    <div class="caja">
+        <h1><img src="GEORGE1.png" alt="Logo de GEORGE de TATTOO"></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="especiales.html">Especiales</a></li>
+                <li><a href="productos.html">Productos</a></li>
+            </ul>
+        </nav>
+    </div>
+
+<section class="form-contact">
+    <header>
+      <span>
+        <i class="fa fa-paper-plane" aria-hidden="true"></i>
+      </span>
+    </header>
+
+    <form action="" class="contact" method="POST">
+      <label for="nombres">Nombre y apellido</label>
+      <input type="text" name="nombres" id="nombres">
+
+      <label for="correo">Email</label>
+      <input type="text" name="correo" id="correo">
+
+      <label for="nombres">Celular</label>
+      <input type="text" name="celular" id="celular">
+
+      <label for="mensaje">Mensaje</label>
+      <textarea name="mensaje" id="mensaje"></textarea>
+      <input type="submit" value="Enviar">
+
+      <fieldset>
+        <legend>¿Cómo le gustaría que lo contactemos?</legend>
+
+        <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+        
+        <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
+        
+        <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+        
+    </fieldset>
+   
+    <fieldset>
+        <legend>¿En cuál horario prefiere ser atendido?</legend>
+        <select>
+            <option>A cualquier hora</option>
+            <option>Por la mañana</option>
+            <option>Por la tarde</option>
+            <option>Por la noche</option>
+            <option>Yo mando mensaje por WhatsApp</option>
+        </select>
+        </select>
+        </select>
+    </fieldset>
+    <label class="checkbox"><input type="checkbox" checked>¿Te gustaría recibir novedades de GEORGE de Tattoo?</label>                
+     <input type="submit" value="Enviar formulario" class="enviar">
+  </form>
+    <table>
+      <thead>
+          <tr>
+              <th>Día</th>
+              <th>Horario</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Lunes</td>
+              <td>08h ~ 20h</td>
+          </tr>
+          <tr>
+              <td>Martes</td>
+              <td>08h ~ 20h</td>
+          </tr>
+          <tr>
+              <td>Miércoles</td>
+              <td>08h ~ 20h</td>
+          </tr>
+          <tr>
+            <td>Jueves</td>
+            <td>08h ~ 16h</td>
+        </tr>
+          <tr>
+              <td>Viernes</td>
+              <td>08h ~ 16h</td>
+          </tr>
+          <tr>
+            <td>Sabado</td>
+            <td>10h ~ 16h</td>
+        </tr>
+        <tr>
+          <td>Domingo</td>
+          <td>Día de descanso</td>
+      </tr>
+      </tbody>
+    </table>
+</section>
+</main>
+  <footer>
+    <img src="GEORGE2.png">
+    <p class="copyright">&copy Copyright GEORGE de Tatoo - 2022</p>
+</footer>
+</body>
+</html>

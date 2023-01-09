@@ -1,0 +1,171 @@
+
+  body{background-color: #D5DCFF;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3CradialGradient id='a' cx='0' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23dcfff3'/%3E%3Cstop offset='1' stop-color='%23dcfff3' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='1200' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23e0ddff'/%3E%3Cstop offset='1' stop-color='%23e0ddff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='c' cx='600' cy='0' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23e4fffd'/%3E%3Cstop offset='1' stop-color='%23e4fffd' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='600' cy='800' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23D5DCFF'/%3E%3Cstop offset='1' stop-color='%23D5DCFF' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='e' cx='0' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23F1FFE3'/%3E%3Cstop offset='1' stop-color='%23F1FFE3' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='f' cx='1200' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23EEE5FF'/%3E%3Cstop offset='1' stop-color='%23EEE5FF' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' width='1200' height='800'/%3E%3Crect fill='url(%23c)' width='1200' height='800'/%3E%3Crect fill='url(%23d)' width='1200' height='800'/%3E%3Crect fill='url(%23e)' width='1200' height='800'/%3E%3Crect fill='url(%23f)' width='1200' height='800'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+   
+ } 
+
+ .resolucion {
+  width: 99%;
+  text-align: center;
+}
+
+
+
+ header {
+ padding: 20px 0;
+}
+
+.menu a{
+  background-color: #0861a6;
+  color: whitesmoke;
+  text-decoration: none;
+  float: right;
+  width: 5%;
+  text-align: center;
+  padding: 20px;
+}
+
+.menu a:hover{
+  background-color:#FB4F14;
+  color:black;
+  transform: scale(1.2);
+}
+
+
+ .titulo{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium';
+  font-size: 50px;
+  color:#0861a6;
+ }
+
+ .titulo-principal{
+  padding-left: 30px;
+}
+
+
+
+.imagenprincipal{
+  display:block;
+  margin:auto;
+  width: 1200px;
+  height: 500px;
+ }
+
+.principal{
+padding: 20px;
+}
+
+.centralizado{
+  text-align: center;
+  font-size: 35px;
+}
+
+p{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+strong{
+  color:rgb(14, 108, 248);
+}
+
+.mapa{
+  padding: 3em 0;
+  background:( #888888);
+}
+
+.mapa p{
+  margin: 0 0 2em;
+  text-align: center;
+}
+
+.mapa-contenido{
+  width: 940px;
+  margin: 0 auto;
+}
+
+
+.diferenciales{
+  background: #FFFFFF;
+  padding: 30px;
+  font-size:30px;
+}
+
+.contenido-diferenciales{
+  width: 640px;
+  margin: 0 auto;
+}
+
+.lista-diferenciales{
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+h5{
+  text-align: center;
+  color:#0861a6;
+  font-size: 36px;
+}
+.items{
+  line-height: 1.5;
+}
+
+.items:before{
+  content:"✭"
+}
+
+.items:first-child{
+  font-weight: bold;
+}
+
+.imagen-diferenciales{
+  width: 400px;
+  height: 350px;
+  position: absolute;
+  right: 18%;
+  bottom: -1630px;
+  transform: translate(-50%, -50%);
+  box-shadow: 10px 10px 30px 15px #000000;
+}
+
+.video{
+  width: 600px;
+  margin: 1em auto;
+}
+
+
+footer{
+background: rgb(10,5,5);
+background: radial-gradient(circle, rgba(10,5,5,1) 0%, rgba(47,44,45,0.9500175070028011) 100%);
+text-align: center;
+padding:40px;
+
+}
+
+.copyright{
+  color:#FFFFFF;
+  font-size: 13px;
+  margin:20px;
+}
+
+
+@media screen and (max-width:480px){
+  h1{
+      text-align: center;
+  }
+  nav{
+      position: static;
+  }
+  .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video {
+      width: auto;
+  }
+  .lista-diferenciales, .imagen-diferenciales{
+      width: 100%;
+  }
+
+}
